@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #ff8e8e, #f8b8d1);
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 700px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            border: 2px solid #ff8e8e;
+            position: relative;
+        }
+        .photo-frame {
+            width: 100%;
+            height: 300px;
+            background-color: #f8f8f8;
+            border-radius: 10px;
+            border: 5px solid #ff4081;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .photo-frame img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        /* Marco diagonal */
+        .photo-frame-diagonal {
+            position: absolute;
+            top: 50px;
+            right: -50px;
+            width: 200px;
+            height: 200px;
+            background-color: #f8f8f8;
+            border-radius: 10px;
+            border: 5px solid #ff4081;
+            transform: rotate(45deg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        .photo-frame-diagonal img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .message {
+            font-size: 1.3em;
+            line-height: 1.8;
+            color: #555;
+            text-align: justify;
+            padding: 20px;
+            background-color: #fff0f6;
+            border-radius: 10px;
+            border-left: 5px solid #ff4081;
+            margin-bottom: 30px;
+        }
+        .signature {
+            font-size: 1.4em;
+            font-weight: bold;
+            text-align: right;
+            color: #ff4081;
+            letter-spacing: 1px;
+        }
+        .heart {
+            display: block;
+            text-align: center;
+            font-size: 60px;
+            color: #ff4081;
+            margin-top: 20px;
+        }
+        .decorative-line {
+            height: 2px;
+            background-color: #ff4081;
+            margin: 40px 0;
+            border: none;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Marco superior para foto -->
+        <div class="photo-frame">
+            <!-- Aquí puedes poner tu imagen -->
+            <img src="ruta-de-tu-imagen.jpg" alt="Foto superior">
+        </div>
+
+        <!-- Marco diagonal -->
+        <div class="photo-frame-diagonal">
+            <!-- Aquí puedes poner tu imagen -->
+            <img src="ruta-de-tu-imagen.jpg" alt="Foto diagonal">
+        </div>
+
+        <div class="message">
+            Querida Cielo,<br><br>
+            Sé que he cometido muchos errores. Mi timidez a veces me hace guardarme cosas que debería decirte, y mi trabajo me ha ocupado más de lo que quisiera, dejándote con menos tiempo del que mereces. Sin embargo, a pesar de todo esto, sigues aquí conmigo, aguantándome, dándome tu paciencia y comprensión. No tengo palabras suficientes para agradecerte por estar a mi lado a pesar de mis fallos.<br><br>
+
+            Me encanta cuando veo lo generosa que eres, cómo siempre estás dispuesta a ayudar a las personas que lo necesitan, sin esperar nada a cambio. Tu bondad me inspira y me hace admirarte aún más. También me encanta lo mucho que te gustan los animales, la forma en que te preocupas por ellos y cómo puedes conectarte con ellos de una manera tan natural y hermosa. Son esas cosas las que me hacen sentir afortunado de conocerte y de tenerte en mi vida.<br><br>
+
+            A pesar de todo lo que he hecho mal, quiero que sepas lo agradecido que estoy por todo lo que haces, por cómo eres y por cómo me has aceptado tal y como soy. Tal vez no siempre te lo diga, pero lo siento profundamente, y me esfuerzo por ser mejor para ti. Gracias por ser tú. Gracias por ser la persona increíble que eres. Estoy aquí para ti, siempre que me necesites.<br><br>
+        </div>
+
+        <div class="decorative-line"></div>
+        </div>
+
+        <div class="signature">
+            Con todo mi cariño,<br>
+            Tu admirador
+        </div>
+        <div class="heart">&#10084;&#65039;</div>
+    </div>
+</body>
+</html>
